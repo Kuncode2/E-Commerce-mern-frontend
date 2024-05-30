@@ -1,26 +1,47 @@
-.item{
-    width: 350px;
+.item {
+    width: 300px;
+    padding: 16px; /* Add some padding around the item for better spacing */
+    box-sizing: border-box; /* Ensure padding is included in the total width/height */
+    transition: transform 0.6s; /* Move the transition to here for smoother hover effect */
 }
-.item p{
-    margin: 6px 0px;
+
+.item p {
+    margin: 6px 0;
+    padding: 0; /* Remove padding from p element */
 }
-.item-prices{
+
+.item-prices {
     display: flex;
-    gap: 20px;
+    justify-content: space-between; /* Ensure prices are well spaced */
+    margin-top: 10px; /* Add some space above the prices section */
 }
-.item-price-new{
+
+.item-price-new,
+.item-price-old {
     color: #374151;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
 }
-.item-price-old{
+
+.item-price-old {
     color: #8c8c8c;
-    font-size: 18px;
     font-weight: 500;
     text-decoration: line-through;
 }
 
-.item:hover{
+.item:hover {
     transform: scale(1.05);
-    transition: 0.6s;
+}
+
+.image {
+    width: 100%; /* Make image width responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Add some space below the image */
+}
+
+.item-name {
+    color: #374151;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center; /* Center the text */
 }
