@@ -18,9 +18,26 @@
     font-weight: 600;
 }
 .shopcategory-products{
+    padding-right: 70px;
+    padding-left: 10px;
     margin: 20px 100px;
-    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     row-gap: 80px;   
+}
+
+.shopcategory-loadmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    width: 233px;
+    height: 69px;
+    border-radius: 75px;
+    background: #edeede;
+    color: #787878;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+
 }

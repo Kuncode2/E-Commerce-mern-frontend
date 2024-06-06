@@ -1,8 +1,8 @@
 .item {
     width: 300px;
-    padding: 16px; /* Add some padding around the item for better spacing */
-    box-sizing: border-box; /* Ensure padding is included in the total width/height */
-    transition: transform 0.6s; /* Move the transition to here for smoother hover effect */
+    padding: 16px; 
+    box-sizing: border-box; 
+    transition: transform 0.6s; 
 }
 
 .item p {
@@ -31,6 +31,7 @@
 
 .item:hover {
     transform: scale(1.05);
+    transition: 0.6s;
 }
 
 .image {
