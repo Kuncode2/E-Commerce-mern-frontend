@@ -12,7 +12,7 @@ const Product = () => {
   }
   return (
     <div> 
-      <Breadcrum product={pgit aroduct} />
+      <Breadcrum product={product} />
     </div> 
   )
 }
