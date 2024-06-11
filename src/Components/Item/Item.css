@@ -5,6 +5,10 @@
     transition: transform 0.6s; 
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+  
 .item p {
     margin: 6px 0;
     padding: 0; /* Remove padding from p element */
