@@ -1,10 +1,10 @@
 import React from 'react'
-import LoginSignup from './LoginSignup'
+import CartItems from '../Components/CartItems/CartItems'
 
 const Cart = () => {
   return (
     <div>
-      <LoginSignup/>
+      <CartItems/>
     </div>
   )
 }
