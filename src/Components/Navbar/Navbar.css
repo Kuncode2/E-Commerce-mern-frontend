@@ -8,6 +8,10 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    
+}
+.hiddenprop{
+    text-decoration: none;
 }
 
 .nav-logo p{
