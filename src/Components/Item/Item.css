@@ -4,7 +4,6 @@
     box-sizing: border-box; 
     transition: transform 0.6s; 
 }
-
 html {
     scroll-behavior: smooth;
   }
@@ -49,4 +48,49 @@ html {
     font-size: 16px;
     font-weight: 500;
     text-align: center; /* Center the text */
+}
+
+@media(max-width:1113px){
+    .item{
+        width: 220px;
+        font-size: 14px;
+    }
+    .item img{
+        width: 220px;
+    }
+    .item-price-old{
+        font-size: 14px;
+    }
+}
+@media(max-width:923px){
+    .item{
+        width: 170px;
+        font-size: 13px;
+    }
+    .item img{
+        width: 170px;
+    }
+    .item-price-old{
+        font-size: 13px;
+    }
+}
+@media(max-width:743px){
+    .item{
+        width: 120px;
+        font-size: 12px;
+    }
+    .item img{
+        width: 120px;
+    }
+    .item-price-old{
+        font-size: 12px;
+    }
+}
+@media(max-width:561px){
+    .item{
+        width: 160px;
+    }
+    .item img{
+        width: 160px;
+    }
 }
