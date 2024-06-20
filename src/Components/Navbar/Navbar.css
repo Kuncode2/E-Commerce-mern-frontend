@@ -134,7 +134,7 @@
         height: 18px;
     }
 }
-@media(max-width:748px){
+@media(max-width:600px){
     .navbar{
         padding: 10px 0px;
     }
