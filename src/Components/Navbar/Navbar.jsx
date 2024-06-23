@@ -27,6 +27,7 @@ import nav_dropdown from '../Assets/Dropdown-removebg-preview.png'
         <li onClick={()=>{setMenu("mens")}}><Link style={{textDecoration:'none'}}to='mens'>Men</Link>{menu === "mens"?<hr/>:<></>}</li>
         <li onClick={()=>{setMenu("women")}}><Link style={{textDecoration:'none'}}to='women'>Women</Link>{ menu === "women"?<hr/>:<></>}</li>
         <li onClick={()=>{setMenu("kids")}}><Link style={{textDecoration:'none'}} to='kids'>Kids</Link>{ menu === "kids"?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu("adult")}}><Link style={{textDecoration:'none'}} to='adult'>Adult</Link>{menu === "adult"?<hr/>:<></>}</li>     
       </ul>
       <div className="nav-login-cart">
         <Link to='/login'><button>Login</button></Link>
