@@ -14,7 +14,7 @@ const LoginSignup = () => {
     let responseData;
     await fetch('http://localhost:4000/login',{
       method:'POST',
-      header:{            
+      headers:{            
         Accept:'application/form-data',
         'Content-Type':'application/json'
       },
